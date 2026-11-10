@@ -1,0 +1,771 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SMARTcare 太阳公公 · 产品册 2026</title>
+<meta name="description" content="SMARTcare太阳公公 2026产品册——韩国高端母婴电器品牌，全球16国销售。奶瓶消毒柜、吸奶器、喂养与生活电器全系列。">
+<style>
+:root{
+  --accent:#b07d3a; --accent-light:#c9944e; --accent-dark:#8f6020;
+  --bg:#faf7f2; --bg2:#f3ede3; --bg3:#ede4d6;
+  --text:#2c2118; --muted:rgba(44,33,24,.58); --dim:rgba(44,33,24,.38);
+  --border:rgba(44,33,24,.1); --aborder:rgba(176,125,58,.25);
+  --white:#fff;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{font-family:"PingFang SC","Microsoft YaHei","Noto Sans SC",system-ui,sans-serif;background:var(--bg);color:var(--text);line-height:1.7}
+a{color:inherit;text-decoration:none}
+img{max-width:100%;display:block}
+
+/* nav */
+nav{position:sticky;top:0;z-index:100;background:rgba(250,247,242,.92);backdrop-filter:blur(10px);border-bottom:1px solid var(--border)}
+.nav-in{max-width:1160px;margin:0 auto;padding:14px 24px;display:flex;align-items:center;gap:28px}
+.brand{display:flex;align-items:center;gap:10px;font-weight:700;font-size:18px;letter-spacing:.5px}
+.brand .mark{width:36px;height:36px;border-radius:9px;background:linear-gradient(135deg,var(--accent-light),var(--accent-dark));display:flex;align-items:center;justify-content:center;color:#fff;font-size:20px;font-weight:800}
+.brand small{display:block;font-size:11px;color:var(--muted);font-weight:400;letter-spacing:2px}
+.nav-links{display:flex;gap:22px;margin-left:auto;font-size:14px;color:var(--muted)}
+.nav-links a:hover{color:var(--accent)}
+.nav-cta{background:linear-gradient(135deg,var(--accent),var(--accent-dark));color:#fff;padding:8px 18px;border-radius:999px;font-size:14px;font-weight:600;white-space:nowrap}
+@media(max-width:860px){.nav-links{display:none}}
+
+/* hero */
+header{position:relative;overflow:hidden;background:
+  radial-gradient(1200px 500px at 80% -10%,rgba(201,148,78,.18),transparent),
+  radial-gradient(800px 400px at 10% 110%,rgba(201,148,78,.12),transparent),var(--bg)}
+.hero{max-width:1160px;margin:0 auto;padding:90px 24px 70px;display:grid;grid-template-columns:1.15fr .85fr;gap:56px;align-items:center}
+.badge{display:inline-flex;align-items:center;gap:8px;border:1px solid var(--aborder);background:rgba(255,255,255,.7);color:var(--accent-dark);padding:7px 16px;border-radius:999px;font-size:13px;letter-spacing:1px;margin-bottom:26px}
+h1{font-size:clamp(34px,5vw,56px);line-height:1.25;font-weight:800;letter-spacing:1px}
+h1 .en{display:block;font-size:15px;font-weight:600;color:var(--accent);letter-spacing:5px;margin-bottom:14px}
+.hero p.sub{margin-top:22px;font-size:17px;color:var(--muted);max-width:520px}
+.hero .btns{margin-top:36px;display:flex;gap:14px;flex-wrap:wrap}
+.btn{padding:13px 30px;border-radius:999px;font-size:15px;font-weight:600;transition:.2s}
+.btn-p{background:linear-gradient(135deg,var(--accent),var(--accent-dark));color:#fff;box-shadow:0 8px 24px rgba(176,125,58,.35)}
+.btn-p:hover{transform:translateY(-2px)}
+.btn-o{border:1px solid var(--aborder);color:var(--accent-dark)}
+.btn-o:hover{background:rgba(176,125,58,.08)}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-top:46px}
+.stat b{display:block;font-size:26px;color:var(--accent-dark);font-weight:800}
+.stat span{font-size:12.5px;color:var(--muted)}
+.hero-visual{position:relative}
+.hero-visual .frame{background:#fff;border-radius:22px;padding:16px;box-shadow:0 24px 60px rgba(44,33,24,.14);border:1px solid var(--border)}
+.hero-visual .frame img{border-radius:14px;aspect-ratio:4/4.4;object-fit:cover;width:100%}
+.float-tag{position:absolute;background:#fff;border:1px solid var(--border);border-radius:14px;padding:10px 16px;font-size:13px;box-shadow:0 10px 30px rgba(44,33,24,.12);font-weight:600}
+.float-tag small{display:block;color:var(--muted);font-weight:400;font-size:11.5px}
+.ft1{top:-14px;left:-18px}.ft2{bottom:-14px;right:-14px}
+@media(max-width:860px){.hero{grid-template-columns:1fr;padding-top:56px}.stats{grid-template-columns:repeat(2,1fr)}}
+
+/* section base */
+section{max-width:1160px;margin:0 auto;padding:76px 24px}
+.sec-head{text-align:center;margin-bottom:48px}
+.sec-head .kicker{color:var(--accent);font-size:13px;letter-spacing:4px;font-weight:700;text-transform:uppercase}
+.sec-head h2{font-size:clamp(26px,3.4vw,36px);font-weight:800;margin-top:10px;letter-spacing:1px}
+.sec-head p{color:var(--muted);margin-top:12px;max-width:640px;margin-left:auto;margin-right:auto}
+
+/* about */
+.about-grid{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:start}
+.about-card{background:#fff;border:1px solid var(--border);border-radius:20px;padding:34px}
+.about-card h3{font-size:19px;margin-bottom:14px;display:flex;align-items:center;gap:10px}
+.about-card h3::before{content:"";width:4px;height:20px;border-radius:4px;background:linear-gradient(var(--accent-light),var(--accent-dark))}
+.about-card p{color:var(--muted);font-size:14.5px;text-align:justify}
+.quote{background:linear-gradient(135deg,rgba(176,125,58,.1),rgba(201,148,78,.06));border:1px solid var(--aborder);border-radius:20px;padding:34px;text-align:center;margin-top:34px}
+.quote p{font-size:19px;font-weight:700;letter-spacing:.5px}
+.quote span{display:block;margin-top:8px;color:var(--muted);font-size:13.5px}
+.timeline{display:grid;grid-template-columns:repeat(6,1fr);gap:12px;margin-top:34px}
+.tl{background:#fff;border:1px solid var(--border);border-radius:16px;padding:18px 14px;text-align:center}
+.tl b{display:block;color:var(--accent-dark);font-size:20px;font-weight:800}
+.tl span{font-size:12.5px;color:var(--muted);display:block;margin-top:6px;line-height:1.5}
+@media(max-width:960px){.about-grid{grid-template-columns:1fr}.timeline{grid-template-columns:repeat(3,1fr)}}
+
+/* story */
+.story-wrap{background:var(--bg2);border-radius:26px;padding:54px 40px}
+.story-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:22px;margin-top:36px}
+.story-card{background:#fff;border-radius:18px;padding:26px 22px;border:1px solid var(--border)}
+.story-card .no{font-size:13px;color:var(--accent);font-weight:800;letter-spacing:3px}
+.story-card h4{font-size:18px;margin:8px 0 10px}
+.story-card p{font-size:13.5px;color:var(--muted)}
+.story-slogan{text-align:center;font-size:clamp(20px,2.6vw,28px);font-weight:800;letter-spacing:2px;margin-bottom:8px}
+.story-slogan-en{text-align:center;color:var(--dim);font-size:12.5px;letter-spacing:3px}
+@media(max-width:960px){.story-grid{grid-template-columns:repeat(2,1fr)}.story-wrap{padding:40px 24px}}
+
+/* products */
+.filter{display:flex;gap:10px;flex-wrap:wrap;justify-content:center;margin-bottom:40px}
+.fbtn{border:1px solid var(--border);background:#fff;color:var(--muted);padding:9px 20px;border-radius:999px;font-size:14px;cursor:pointer;transition:.2s}
+.fbtn:hover{border-color:var(--aborder);color:var(--accent-dark)}
+.fbtn.on{background:linear-gradient(135deg,var(--accent),var(--accent-dark));color:#fff;border-color:transparent}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:26px}
+@media(max-width:960px){.grid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:620px){.grid{grid-template-columns:1fr}}
+.card{background:#fff;border:1px solid var(--border);border-radius:20px;overflow:hidden;display:flex;flex-direction:column;transition:.25s}
+.card:hover{transform:translateY(-4px);box-shadow:0 18px 44px rgba(44,33,24,.12)}
+.card .imgbox{background:linear-gradient(180deg,#fff,var(--bg2));padding:22px;display:flex;align-items:center;justify-content:center;min-height:230px}
+.card .imgbox img{max-height:230px;width:auto;object-fit:contain}
+.card .body{padding:20px 22px 22px;display:flex;flex-direction:column;flex:1}
+.card .tags{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:10px}
+.tag{font-size:11px;padding:3px 10px;border-radius:999px;letter-spacing:.5px}
+.tag-imp{background:rgba(176,125,58,.12);color:var(--accent-dark);border:1px solid var(--aborder)}
+.tag-new{background:rgba(56,194,109,.12);color:#1f7a4d;border:1px solid rgba(56,194,109,.3)}
+.tag-jv{background:rgba(48,79,252,.08);color:#30469f;border:1px solid rgba(48,79,252,.22)}
+.card h4{font-size:16.5px;font-weight:700;line-height:1.45}
+.card .model{color:var(--dim);font-size:12px;margin-top:2px}
+.card ul{margin:12px 0 14px;padding-left:0;list-style:none;flex:1}
+.card ul li{font-size:13px;color:var(--muted);padding-left:16px;position:relative;margin-bottom:5px}
+.card ul li::before{content:"";position:absolute;left:2px;top:9px;width:5px;height:5px;border-radius:50%;background:var(--accent-light)}
+.card .foot{display:flex;align-items:center;justify-content:space-between;border-top:1px solid var(--border);padding-top:14px}
+.price{font-size:12px;color:var(--dim)}
+.price b{font-size:19px;color:var(--accent-dark);font-weight:800;margin-right:2px}
+.price i{font-style:normal;font-size:12px;color:var(--dim)}
+
+/* channels */
+.chan-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:26px}
+@media(max-width:960px){.chan-grid{grid-template-columns:1fr}}
+.chan{background:#fff;border:1px solid var(--border);border-radius:20px;padding:30px}
+.chan h3{font-size:18px;margin-bottom:8px;display:flex;align-items:center;gap:10px}
+.chan h3 .ico{width:38px;height:38px;border-radius:11px;background:rgba(176,125,58,.12);display:flex;align-items:center;justify-content:center;font-size:18px}
+.chan .hl{background:linear-gradient(135deg,rgba(176,125,58,.12),rgba(201,148,78,.05));border:1px solid var(--aborder);border-radius:12px;padding:12px 16px;font-size:13.5px;color:var(--accent-dark);font-weight:600;margin:12px 0}
+.chan p{font-size:13.5px;color:var(--muted)}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}
+.chip{background:var(--bg2);border:1px solid var(--border);border-radius:999px;padding:5px 13px;font-size:12.5px;color:var(--muted)}
+
+/* trust */
+.trust-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:22px}
+@media(max-width:960px){.trust-grid{grid-template-columns:repeat(2,1fr)}}
+.trust{background:#fff;border:1px solid var(--border);border-radius:18px;padding:26px;text-align:center}
+.trust .big{font-size:24px;font-weight:800;color:var(--accent-dark)}
+.trust p{font-size:13px;color:var(--muted);margin-top:8px}
+
+/* footer */
+footer{background:#241a11;color:rgba(255,255,255,.82);margin-top:60px}
+.foot-in{max-width:1160px;margin:0 auto;padding:56px 24px 40px;display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:40px}
+.foot-in h5{color:#fff;font-size:15px;margin-bottom:14px;letter-spacing:1px}
+.foot-in a,.foot-in p{display:block;font-size:13.5px;color:rgba(255,255,255,.6);margin-bottom:9px}
+.foot-in a:hover{color:var(--accent-light)}
+.foot-brand{display:flex;align-items:center;gap:10px;font-weight:700;font-size:18px;color:#fff;margin-bottom:14px}
+.foot-brand .mark{width:34px;height:34px;border-radius:9px;background:linear-gradient(135deg,var(--accent-light),var(--accent-dark));display:flex;align-items:center;justify-content:center;color:#fff}
+.copy{border-top:1px solid rgba(255,255,255,.1);text-align:center;padding:18px;font-size:12px;color:rgba(255,255,255,.4)}
+@media(max-width:860px){.foot-in{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="nav-in">
+    <a class="brand" href="#top">
+      <span class="mark">S</span>
+      <span>SMARTCARE<small>太 阳 公 公</small></span>
+    </a>
+    <div class="nav-links">
+      <a href="#about">关于全罗</a>
+      <a href="#story">品牌故事</a>
+      <a href="#products">产品系列</a>
+      <a href="#channels">销售渠道</a>
+      <a href="#trust">品牌实力</a>
+    </div>
+    <a class="nav-cta" href="https://smartcare.tmall.com/" target="_blank" rel="noopener">天猫旗舰店 →</a>
+  </div>
+</nav>
+
+<header id="top">
+  <div class="hero">
+    <div>
+      <span class="badge">☀ 韩国高端母婴电器品牌 · 全球 16 国销售</span>
+      <h1><span class="en">FEWER PRODUCTS · HIGHER STANDARDS</span>少，但每一件都极致</h1>
+      <p class="sub">SMARTcare 太阳公公——源自韩国的高端母婴与家用小家电品牌。把更高标准的科技，做成父母看得见的安心。</p>
+      <div class="btns">
+        <a class="btn btn-p" href="#products">浏览产品册</a>
+        <a class="btn btn-o" href="https://szql-smartcare.github.io/smartcare-website/" target="_blank" rel="noopener">品牌官网</a>
+      </div>
+      <div class="stats">
+        <div class="stat"><b>10年+</b><span>韩国消费者满意度第一</span></div>
+        <div class="stat"><b>16国</b><span>全球销售覆盖</span></div>
+        <div class="stat"><b>99.999%</b><span>紫外线杀菌率</span></div>
+        <div class="stat"><b>60%</b><span>韩国消毒柜市场占有率</span></div>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="frame"><img src="assets/p-f5npro.jpg" alt="SMARTcare 奶瓶消毒柜"></div>
+      <div class="float-tag ft1">韩国原装进口<small>F5N Pro-SE 消毒柜</small></div>
+      <div class="float-tag ft2">45℃ 低温烘干<small>涡轮增速 · 全球唯一</small></div>
+    </div>
+  </div>
+</header>
+
+<section id="about">
+  <div class="sec-head">
+    <div class="kicker">ABOUT US</div>
+    <h2>苏州全罗贸易有限公司</h2>
+    <p>从总代理商到品牌商——2014 年起步于韩国婴童小家电全国总代理，2024 年与韩国 HAENIM 株式会社成立合资公司，100% 拥有并独立运作 SMARTcare 太阳公公品牌。</p>
+  </div>
+  <div class="about-grid">
+    <div class="about-card">
+      <h3>公司简介</h3>
+      <p>苏州全罗贸易有限公司成立于 2014 年 9 月，起步于专业总代理韩国婴童类小家电，立志将全球技术领先、更适合亚洲家庭的韩国尖端产品带入中国。总代理品牌 Haenim / SMARTcare 在全球 16 个国家及地区销售，其中韩国市场占有率 60%。2024 年起与韩国 HAENIM 株式会社成立合资公司，从总代理商转型为品牌商，100% 拥有且独立运作 SMARTcare 太阳公公品牌。主营高端母婴、家用小家电及周边产品，部分韩国原装进口，部分韩国设计、中国代工，同样保持国际化高标准。</p>
+    </div>
+    <div class="about-card">
+      <h3>品质与服务</h3>
+      <p>线上覆盖天猫、京东、苏宁、拼多多、抖音、小红书、唯品会及海外跨境购 TOF 与 50 多个 B2B 渠道；线下集中开发一、二线城市高端母婴单店与连锁店。在苏州建立维修中心及备品备件库，设立全国 400-928-2515 免费电话，所有维修配件价格网上透明公示，产品售后严格按国家家用电器标准执行。</p>
+    </div>
+  </div>
+  <div class="timeline">
+    <div class="tl"><b>2014</b><span>公司成立<br>代理韩国婴童小家电</span></div>
+    <div class="tl"><b>2015</b><span>线上线下<br>渠道全面拓展</span></div>
+    <div class="tl"><b>2017</b><span>产品拓展<br>建立品牌矩阵</span></div>
+    <div class="tl"><b>2018-21</b><span>选品延展至<br>日本及欧美国家</span></div>
+    <div class="tl"><b>2022</b><span>品类持续扩张<br>生活电器系列</span></div>
+    <div class="tl"><b>2024</b><span>成立韩国 JV<br>打造国际品牌</span></div>
+  </div>
+  <div class="quote">
+    <p>“专注于全球精选孕婴优品，为孕婴童家庭品质生活提供解决方案！”</p>
+    <span>—— 全罗贸易 董事长</span>
+  </div>
+</section>
+
+<section id="story" style="padding-top:20px">
+  <div class="story-wrap">
+    <div class="sec-head" style="margin-bottom:8px">
+      <div class="kicker">BRAND STORY</div>
+      <h2>太阳公公 · 守护孩子成长</h2>
+    </div>
+    <div class="story-slogan">Guard as always · 如初守护</div>
+    <div class="story-slogan-en">GUARD · TIME · EXPERT · GLOBAL · LOVE</div>
+    <div class="story-grid">
+      <div class="story-card"><div class="no">01 · 光阴</div><h4>十余年深耕母婴</h4><p>品牌源自韩国 ST 株式会社（后更名 Haenim 株式会社），2013 年推出首台奶瓶消毒柜，专注母婴产品研发十余年。</p></div>
+      <div class="story-card"><div class="no">02 · 专业</div><h4>以制药标准做电器</h4><p>以 GMP 标准自律，持有 CQC、CE、FDA 等多项国际认证及韩国、美国发明专利，连续 10 年获韩国消费者满意度奖第一名。</p></div>
+      <div class="story-card"><div class="no">03 · 全球</div><h4>16 国千万家庭</h4><p>产品销往日韩、美加、澳新、东南亚等 16 个国家和地区，惠及超百万家庭，各国线下渠道与展会广受认可。</p></div>
+      <div class="story-card"><div class="no">04 · 爱</div><h4>温暖如太阳公公</h4><p>中文名取自东方家庭对温暖与可靠的象征——守护孩子成长，助力妈妈轻松育儿。</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="products">
+  <div class="sec-head">
+    <div class="kicker">PRODUCTS 2026</div>
+    <h2>产品系列</h2>
+    <p>消毒柜 · 喂养 · 清洁护理 · 吸奶器 · 生活电器 · 厨房电器，全系列一览。</p>
+  </div>
+  <div class="filter" id="filter">
+    <button class="fbtn on" data-f="all">全部</button>
+    <button class="fbtn" data-f="ster">奶瓶消毒柜</button>
+    <button class="fbtn" data-f="feed">喂养电器</button>
+    <button class="fbtn" data-f="care">清洁护理</button>
+    <button class="fbtn" data-f="pump">吸奶器·哺育</button>
+    <button class="fbtn" data-f="life">生活电器</button>
+    <button class="fbtn" data-f="kitchen">厨房电器</button>
+  </div>
+  <div class="grid" id="grid">
+
+    <div class="card" data-c="ster">
+      <div class="imgbox"><img src="assets/p-v3pro.png" alt="V3Pro 消毒柜"></div>
+      <div class="body">
+        <div class="tags"><span class="tag tag-imp">韩国原装进口</span></div>
+        <h4>UV 紫外线奶瓶消毒柜 V3Pro / 3+WT</h4>
+        <div class="model">25L · 3层空间 · 2块搁架</div>
+        <ul>
+          <li>3Pro 上下 12 颗欧司朗钻石灯珠 275nm，寿命 4 万小时；3+WT 顶部 9 颗灯珠</li>
+          <li>全球唯一涡轮增速烘干：45℃ 安全低温达到 60℃ 烘干效果；全球唯一灯珠报错系统</li>
+          <li>镜面玻璃门 + 超镜面 304 不锈钢内胆，紫外线 360° 无死角反射；开门即断 UV</li>
+          <li>幽门螺旋杆菌、H1N1、诺如病毒等 99.99% 杀菌报告；美国 FDA、韩国 KC 认证</li>
+        </ul>
+        <div class="foot"><div class="price"><b>¥1880</b><i>零售价</i></div></div>
+      </div>
+    </div>
+
+    <div class="card" data-c="ster">
+      <div class="imgbox"><img src="assets/p-f5npro.jpg" alt="F5N Pro-SE 消毒柜"></div>
+      <div class="body">
+        <div class="tags"><span class="tag tag-imp">韩国原装进口</span></div>
+        <h4>UVLED 紫外线奶瓶消毒柜 F5N Pro-SE</h4>
+        <div class="model">25L · 3层空间 · 2块搁架</div>
+        <ul>
+          <li>上下 15 颗欧司朗钻石灯珠共 450mW，杀菌率 99.999%，寿命 4 万小时</li>
+          <li>7 大模式：全自动 / 单独杀菌 / 单独烘干 / 强力 / 24h 智能托管 / 自然风干 / 清洁提醒</li>
+          <li>纯磨砂玻璃柜门 + 双层门，密封性更强、烘干更快，高端质感</li>
+          <li>内胆搁架纯 304 不锈钢无镀层；灯珠报错系统 + 涡轮增速烘干</li>
+        </ul>
+        <div class="foot"><div class="price"><b>¥2380</b><i>零售价</i></div></div>
+      </div>
+    </div>
+
+    <div class="card" data-c="ster">
+      <div class="imgbox"><img src="assets/p-f5.jpg" alt="F5 消毒柜"></div>
+      <div class="body">
+        <div class="tags"><span class="tag tag-imp">韩国原装进口</span><span class="tag tag-jv">专利技术</span></div>
+        <h4>UVLED 紫外线奶瓶消毒柜 F5</h4>
+        <div class="model">25L · 3层搁架 · 豪门金/樱花粉/香槟色</div>
+        <ul>
+          <li>专利：底部 6 颗灯珠镶嵌灯珠盘，无线通电工作，杀菌率 99.999%</li>
+          <li>灯珠盘既是消毒灯又是接水盘，100% 防水可直接水洗</li>
+          <li>上下灯珠独立运行分开报错，单组异常整机照常使用</li>
+          <li>自然风干模式不启动加热，双风扇排出湿气；三色可选</li>
+        </ul>
+        <div class="foot"><div class="price"><b>¥2880</b><i>零售价</i></div></div>
+      </div>
+    </div>
+
+    <div class="card" data-c="ster">
+      <div class="imgbox"><img src="assets/p-mini.jpg" alt="Mini 消毒柜"></div>
+      <div class="body">
+        <div class="tags"><span class="tag tag-imp">韩国原装进口</span></div>
+        <h4>UVLED 紫外线奶瓶消毒柜 Mini</h4>
+        <div class="model">10L · 2层空间 · 2块搁架</div>
+        <ul>
+          <li>烘干消毒保管一键全自动，带灯珠报错系统、按键静音功能</li>
+          <li>顶部 6 颗大功率欧司朗灯珠，99.99% 杀菌率</li>
+          <li>小巧便携，上下两层，可放 6-8 个奶瓶</li>
+          <li>60℃ 中温烘干；内胆 6 面 304 不锈钢，韩国 KC 认证</li>
+        </ul>
+        <div class="foot"><div class="price"><b>¥839</b><i>零售价</i></div></div>
+      </div>
+    </div>
+
+    <div class="card" data-c="ster">
+      <div class="imgbox"><img src="assets/p-cube.jpg" alt="CUBE 消毒柜"></div>
+      <div class="body">
+        <div class="tags"><span class="tag tag-jv">韩国设计 · 中韩共同生产</span></div>
+        <h4>CUBE 紫外线奶瓶消毒柜 CB / CO</h4>
+        <div class="model">26L · 3层空间 · 月光白/凝脂白</div>
+        <ul>
+          <li>6 面 26 颗 UVLED 无汞灯珠 + 蜂窝 304 内胆，360° 无死角</li>
+          <li>独家 3 档烘干温度：COOL 自然风 / LOW 45° / HIGH 60°</li>
+          <li>国家二星级 + 消字号 + 韩国 KC 认证；韩国工程师全程现场监制</li>
+          <li>纯玻璃柜门高端上档次；CO 雾面哑光不透光，可放卧室</li>
+        </ul>
+        <div class="foot"><div class="price"><b>¥1299</b><i>CO 零售价</i></div></div>
+      </div>
+    </div>
+
+    <div class="card" data-c="pump">
+      <div class="imgbox"><img src="assets/p-strawcup.jpg" alt="吸管杯"></div>
+      <div class="body">
+        <div class="tags"><span class="tag tag-imp">Haenim · 韩国原装进口</span></div>
+        <h4>PA / PPSU 三合一 · 弹开盖吸管杯</h4>
+        <div class="model">150ml / 250ml · 4色 · 礼盒装</div>
+        <ul>
+          <li>PA 透明如玻璃不发黄；韩国 PPSU 比国产更透亮，耐 200℃</li>
+          <li>无 16 种 EDCs 污染物，可水煮、蒸汽、紫外线消毒</li>
+          <li>Mommy / Daddy loves you 走心设计，礼盒装适合送礼</li>
+          <li>三合一盖满足 0-3 岁；弹开盖一按即开（仅吸管）</li>
+        </ul>
+        <div class="foot"><div class="price"><b>¥143起</b><i>至 ¥356 礼盒</i></div></div>
+      </div>
+    </div>
+
+    <div class="card" data-c="pump">
+      <div class="imgbox"><img src="assets/p-bottle.png" alt="PA/PPSU 奶瓶"></div>
+      <div class="body">
+        <div class="tags"><span class="tag tag-imp">Haenim · 韩国原装进口</span></div>
+        <h4>PA / PPSU 奶瓶</h4>
+        <div class="model">150ml / 250ml · 4色 · 礼盒装</div>
+        <ul>
+          <li>两种材质选择：新型 PA 与黄金 PPSU，均不含 BPA</li>
+          <li>4 个奶嘴尺寸：S(0-3m) / M(3-6m) / L(6-9m) / XL(9m+)</li>
+          <li>瓶子×1 + 同尺寸奶嘴×2 + 三合一杯盖</li>
+          <li>礼盒装（一大一小）适合送礼</li>
+        </ul>
+        <div class="foot"><div class="price"><b>¥143起</b><i>礼盒 ¥316</i></div></div>
+      </div>
+    </div>
+
+    <div class="card" data-c="life">
+      <div class="imgbox"><img src="assets/p-undry.png" alt="滚筒内衣护理机"></div>
+      <div class="body">
+        <div class="tags"><span class="tag tag-imp">韩国原装进口</span></div>
+        <h4>SMARTcare 滚筒内衣护理机</h4>
+        <div class="model">3.5L · 承重 1kg</div>
+        <ul>
+          <li>双向滚筒式旋转烘干消毒，360° 更全面</li>
+          <li>70℃ 中温不伤衣物，4 颗 UVC 灯珠 99.99% 杀菌，可用 10 年无需更换</li>
+          <li>12 小时保管，无菌通风无异味</li>
+          <li>烘干消毒保管一键全自动，操作简单老人易上手</li>
+        </ul>
+        <div class="foot"><div class="price"><b>¥439</b><i>零售价</i></div></div>
+      </div>
+    </div>
+
+    <div class="card" data-c="care">
+      <div class="imgbox"><img src="assets/p-wipes.jpg" alt="湿巾加热盒"></div>
+      <div class="body">
+        <div class="tags"><span class="tag tag-imp">韩国原装进口</span></div>
+        <h4>湿巾加热盒 / 便携奶瓶烘干杀菌盒</h4>
+        <div class="model">白色 · 21W 插头供电</div>
+        <ul>
+          <li>三档加热 38/45/55℃，四面环绕恒温，湿巾面膜皆可</li>
+          <li>UV 杀菌 3 档 3/5/8 分钟；每 3 小时自动杀菌 90 秒</li>
+          <li>小夜灯设计；出门可携带 2 只奶瓶临时烘干消毒</li>
+          <li>非常省电，一天约 0.2 元电费</li>
+        </ul>
+        <div class="foot"><div class="price"><b>¥189</b><i>零售价</i></div></div>
+      </div>
+    </div>
+
+    <div class="card" data-c="feed">
+      <div class="imgbox"><img src="assets/p-warmer.jpg" alt="暖奶器"></div>
+      <div class="body">
+        <div class="tags"><span class="tag tag-imp">韩国原装进口</span></div>
+        <h4>SMARTcare 暖奶器</h4>
+        <div class="model">6 大功能合一</div>
+        <ul>
+          <li>5 分钟起快速暖奶，玻璃/硅胶/塑料奶瓶通用，多档选择</li>
+          <li>独创夏暖、冬暖双模式，37-55℃ 自由调节 24h 恒温</li>
+          <li>100℃ 高温杀菌、热食、解冻、蒸蛋共 6 大功能</li>
+          <li>防干烧技术 + 底部小夜灯设计</li>
+        </ul>
+        <div class="foot"><div class="price"><b>¥198</b><i>零售价</i></div></div>
+      </div>
+    </div>
+
+    <div class="card" data-c="feed">
+      <div class="imgbox"><img src="assets/p-bfm.jpg" alt="婴儿辅食机"></div>
+      <div class="body">
+        <div class="tags"><span class="tag tag-new">新品</span><span class="tag tag-jv">实用专利</span></div>
+        <h4>SMARTcare 婴儿辅食机 SM-BFM</h4>
+        <div class="model">云朵意式咖啡款</div>
+        <ul>
+          <li>意式咖啡机造型，像做咖啡一样做辅食，氛围感拉满</li>
+          <li>实用专利微高压速烹技术，快速烹煮锁鲜锁营养</li>
+          <li>一键触控蒸煮搅拌全自动 6 合 1；安全锁扣、缺水提醒</li>
+          <li>可拆刀头组件、304 不锈钢水箱、美国进口 Tritan 杯体</li>
+        </ul>
+        <div class="foot"><div class="price"><b>¥439</b><i>零售价</i></div></div>
+      </div>
+    </div>
+
+    <div class="card" data-c="life">
+      <div class="imgbox"><img src="assets/p-humid.png" alt="蒸汽加湿器"></div>
+      <div class="body">
+        <div class="tags"><span class="tag tag-new">新品 · 预计年底上市</span><span class="tag tag-jv">独家专利</span></div>
+        <h4>SMARTcare 蒸汽加湿器 SM-HUD</h4>
+        <div class="model">5L 大容量</div>
+        <ul>
+          <li>100℃ 高温灭菌蒸汽，无雾无冷凝水珠，守护宝宝呼吸道</li>
+          <li>独家专利部分快速加热，10 秒出蒸汽，主桶冷水防烫更安全</li>
+          <li>AI 自动模式，三档喷雾量最大 0.5L/H；304 内桶可直接加自来水</li>
+          <li>30 分贝低噪音；底座与水桶分离设计，加水清洁方便</li>
+        </ul>
+        <div class="foot"><div class="price"><b>¥599</b><i>零售价</i></div></div>
+      </div>
+    </div>
+
+    <div class="card" data-c="care">
+      <div class="imgbox"><img src="assets/p-brush1.jpg" alt="便携奶瓶刷"></div>
+      <div class="body">
+        <div class="tags"><span class="tag tag-imp">韩国原装进口</span></div>
+        <h4>SMARTcare 便携奶瓶刷（3 色）</h4>
+        <div class="model">6 件套 · 蓝/米/粉</div>
+        <ul>
+          <li>小巧便携，无需安装，打开即用</li>
+          <li>硅胶奶瓶刷、奶嘴刷、吸管刷、奶瓶支架、洗涤剂分装瓶，不含 BPA</li>
+          <li>360° 旋转手柄，解决所有杯型清洗问题</li>
+          <li>硅胶耐温 -20~140℃，可高温煮烫或紫外线消毒</li>
+        </ul>
+        <div class="foot"><div class="price"><b>¥54.9</b><i>零售价</i></div></div>
+      </div>
+    </div>
+
+    <div class="card" data-c="care">
+      <div class="imgbox"><img src="assets/p-brush2.png" alt="奶瓶刷"></div>
+      <div class="body">
+        <div class="tags"><span class="tag tag-imp">韩国原装进口</span></div>
+        <h4>SMARTcare 奶瓶刷（粉 / 蓝）</h4>
+        <div class="model">一套 3 件</div>
+        <ul>
+          <li>液体硅胶刷头，不含 BPA，即甩即干不易滋生细菌</li>
+          <li>360° 旋转手柄，适合各个形状的奶瓶</li>
+          <li>含奶嘴、吸管专用刷，小刷头更贴合</li>
+          <li>尾部挂钩可悬挂；耐温 -20~140℃</li>
+        </ul>
+        <div class="foot"><div class="price"><b>¥31.9</b><i>零售价</i></div></div>
+      </div>
+    </div>
+
+    <div class="card" data-c="pump">
+      <div class="imgbox"><img src="assets/p-pump7v.png" alt="7V 双边吸奶器"></div>
+      <div class="body">
+        <div class="tags"><span class="tag tag-imp">HAENIM · 韩国医疗级</span></div>
+        <h4>HAENIM 7V 双边电动吸奶器</h4>
+        <div class="model">医疗级 · 仅 410g</div>
+        <ul>
+          <li>5 档按摩 × 15 档吸力 × 5 档频率，25 组按摩 + 75 组吸乳选择</li>
+          <li>苹果重量手掌可握，蓄电 3 小时随身携带</li>
+          <li>记忆功能提前设置按摩吸乳模式解放双手</li>
+          <li>无极变光小夜灯，30 分贝静音全触屏</li>
+        </ul>
+        <div class="foot"><div class="price"><b>¥1148起</b><i>至 ¥1330</i></div></div>
+      </div>
+    </div>
+
+    <div class="card" data-c="pump">
+      <div class="imgbox"><img src="assets/p-pump7x.jpg" alt="7X 吸奶器"></div>
+      <div class="body">
+        <div class="tags"><span class="tag tag-imp">HAENIM · 韩国医疗级</span></div>
+        <h4>HAENIM 7X 单 / 双边电动吸奶器</h4>
+        <div class="model">医疗级 · 1.1kg 拎袋设计</div>
+        <ul>
+          <li>25 档按摩组合 + 90 档吸乳组合，医用级吸力</li>
+          <li>大马达使用寿命更长更稳定，吸乳困难、追奶妈妈必备</li>
+          <li>低于 30 分贝超静音，全触屏 + 小夜灯</li>
+          <li>记忆功能解放双手；蓄电 3 小时</li>
+        </ul>
+        <div class="foot"><div class="price"><b>¥1498起</b><i>至 ¥1680</i></div></div>
+      </div>
+    </div>
+
+    <div class="card" data-c="pump">
+      <div class="imgbox"><img src="assets/p-flange.png" alt="NexusFit 吸乳罩"></div>
+      <div class="body">
+        <div class="tags"><span class="tag tag-jv">NexusFit 专利</span></div>
+        <h4>NexusFit 一体式硅胶吸乳罩</h4>
+        <div class="model">7A / 7V / 7X 通用配件</div>
+        <ul>
+          <li>专利一体成型，紧贴乳房，柔软弹性强、密封不漏奶</li>
+          <li>模仿人手按摩整个乳房，减少拉扯不适感，无痛泌乳</li>
+          <li>17、19、21、24、28、32mm 六种口径选择</li>
+          <li>按摩罩与基础罩两款选择，基础罩适合特殊胸型</li>
+        </ul>
+        <div class="foot"><div class="price"><b>¥198</b><i>单边 · 零售价</i></div></div>
+      </div>
+    </div>
+
+    <div class="card" data-c="pump">
+      <div class="imgbox"><img src="assets/p-milkbag.png" alt="感温储奶袋"></div>
+      <div class="body">
+        <div class="tags"><span class="tag tag-imp">HAENIM · 韩国原装进口</span></div>
+        <h4>HAENIM 感温储奶袋</h4>
+        <div class="model">180ml × 30 片/盒</div>
+        <ul>
+          <li>感温系统：LOGO 变蓝即为最佳喂哺温度</li>
+          <li>双轨拉链进出奶分开，防二次污染和浪费</li>
+          <li>内部 LLDPE + 外部 PET 安全材质，KCL 认证，加厚不易爆袋</li>
+          <li>顶部书写记录更方便；也可作为食品储藏袋</li>
+        </ul>
+        <div class="foot"><div class="price"><b>¥79.9</b><i>三盒装</i></div></div>
+      </div>
+    </div>
+
+    <div class="card" data-c="life">
+      <div class="imgbox"><img src="assets/p-icefan.jpg" alt="手持冰风扇"></div>
+      <div class="body">
+        <div class="tags"><span class="tag tag-imp">韩国原装进口</span></div>
+        <h4>SMARTcare 手持冰风扇 HN-IF</h4>
+        <div class="model">白 / 粉 / 米 · 仅 175g</div>
+        <ul>
+          <li>5 秒出冰霜，可直接贴皮肤冰敷，贴面瞬降 5℃，5 秒可降至 11℃</li>
+          <li>5000mAh：仅风扇 6-14h，制冷+风扇 2-4h</li>
+          <li>可挂可立可握，安全锁扣挂包挂童车，多角度调节</li>
+          <li>无刷消声电机超轻音；韩剧女主同款礼盒包装</li>
+        </ul>
+        <div class="foot"><div class="price"><b>¥179</b><i>零售价</i></div></div>
+      </div>
+    </div>
+
+    <div class="card" data-c="life">
+      <div class="imgbox"><img src="assets/p-icefanx.png" alt="高速冰风扇 X05"></div>
+      <div class="body">
+        <div class="tags"><span class="tag tag-imp">韩国原装进口</span></div>
+        <h4>SMARTcare 手持高速冰风扇 X05</h4>
+        <div class="model">星耀黑 / 霜雪白 · 240g</div>
+        <ul>
+          <li>涡轮增压，行走的小空调，风速最快 10m/s</li>
+          <li>超导制冷 + AI 智能芯片，5 秒出冰可贴肤冰敷</li>
+          <li>风速 1-100 档无极调节，5000mAh 大电池</li>
+          <li>全透明设计看到内部芯片，科技美学风；配挂绳礼盒</li>
+        </ul>
+        <div class="foot"><div class="price"><b>¥189</b><i>零售价</i></div></div>
+      </div>
+    </div>
+
+    <div class="card" data-c="life">
+      <div class="imgbox"><img src="assets/p-circfan.png" alt="折叠循环风扇"></div>
+      <div class="body">
+        <div class="tags"><span class="tag tag-imp">韩国原装进口</span></div>
+        <h4>SMARTcare 折叠式循环风扇（蓄电款）</h4>
+        <div class="model">QZ-012B · 白色</div>
+        <ul>
+          <li>三档伸缩 67/78.5/89cm，风扇头 180° 上下 + 底盘左右旋转送风</li>
+          <li>独创 16 片扇叶循环风不易吹感冒，9 档风速，1-8 小时定时</li>
+          <li>7800mAh 最长 9h，折叠仅 7cm，顶部提手移动便捷</li>
+          <li>38.4dB 不扰眠；LED 显示屏 + 遥控器收纳卡槽</li>
+        </ul>
+        <div class="foot"><div class="price"><b>¥439</b><i>零售价</i></div></div>
+      </div>
+    </div>
+
+    <div class="card" data-c="life">
+      <div class="imgbox"><img src="assets/p-icemaker.png" alt="家用制冰机"></div>
+      <div class="body">
+        <div class="tags"><span class="tag tag-imp">韩国原装进口</span></div>
+        <h4>SMARTcare 家用制冰机</h4>
+        <div class="model">弹头冰 · 便携提手</div>
+        <ul>
+          <li>6-8 分钟快速出冰，一次 9 颗子弹冰</li>
+          <li>可容纳 100 颗，循环水道连续出冰，冰满即停</li>
+          <li>UV 紫外线杀菌，儿童饮用更安心</li>
+          <li>带手提冰篮可拆卸；露营、冰饮、特调、聚会全场景</li>
+        </ul>
+        <div class="foot"><div class="price"><b>¥399</b><i>零售价</i></div></div>
+      </div>
+    </div>
+
+    <div class="card" data-c="life">
+      <div class="imgbox"><img src="assets/p-vacuum.jpg" alt="吹吸尘一体机"></div>
+      <div class="body">
+        <div class="tags"><span class="tag tag-jv">韩国设计 · 中国制造</span></div>
+        <h4>暴力风扇 / 手持吹吸尘一体机</h4>
+        <div class="model">仅 395g · 可上飞机</div>
+        <ul>
+          <li>吹、吸、锤一体，高速无刷电机 120000 转</li>
+          <li>7 个喷嘴：车内缝隙清洁、充放气、键盘清理、逃生锤</li>
+          <li>风力约 45m/s，160W 充满电可用 130min</li>
+          <li>铝合金外壳 + 液晶显示屏，质感高级</li>
+        </ul>
+        <div class="foot"><div class="price"><b>¥358</b><i>零售价</i></div></div>
+      </div>
+    </div>
+
+    <div class="card" data-c="feed">
+      <div class="imgbox"><img src="assets/p-warmcup.png" alt="便携恒温杯"></div>
+      <div class="body">
+        <div class="tags"><span class="tag tag-imp">韩国原装进口</span><span class="tag tag-new">预计年底上线</span></div>
+        <h4>SMARTcare 便携无线加热恒温杯</h4>
+        <div class="model">500ml · 52mm 杯口</div>
+        <ul>
+          <li>双源电力：外出无线加热，室内有线烧开水，暖奶泡奶合一</li>
+          <li>37-60℃ 可调，支持 100℃ 沸腾消毒，15 分钟煮沸</li>
+          <li>KC 电池全天 8 小时恒温；Type-C/车载/充电宝皆可充</li>
+          <li>巴氏杀菌，杯体可紫外线消毒；静音防干烧</li>
+        </ul>
+        <div class="foot"><div class="price"><b>¥258</b><i>零售价</i></div></div>
+      </div>
+    </div>
+
+    <div class="card" data-c="kitchen">
+      <div class="imgbox"><img src="assets/p-haniluv.jpg" alt="Hanil 消毒柜"></div>
+      <div class="body">
+        <div class="tags"><span class="tag tag-imp">Hanil 韩一 · 韩国原装进口</span></div>
+        <h4>Hanil 韩一家用紫外线消毒柜</h4>
+        <div class="model">70L / 89L · 极地灰/冰川白</div>
+        <ul>
+          <li>飞利浦大功率紫外线灯管，二星级杀菌，中韩双重检测</li>
+          <li>70L/89L 大容量，家用、小型商用均可满足，2-3 层可变</li>
+          <li>70℃ 中低温热风烘干，双温控保险安全保障</li>
+          <li>Hanil 成立于 1971 年，韩国上市公司，0 事故率保持者</li>
+        </ul>
+        <div class="foot"><div class="price"><b>¥2199起</b><i>89L ¥2399</i></div></div>
+      </div>
+    </div>
+
+    <div class="card" data-c="kitchen">
+      <div class="imgbox"><img src="assets/p-hanilmix.jpg" alt="Hanil 搅拌机"></div>
+      <div class="body">
+        <div class="tags"><span class="tag tag-imp">Hanil 韩一 · 韩国原装进口</span></div>
+        <h4>Hanil 韩一搅拌机</h4>
+        <div class="model">钛金刀头 · 三档动力</div>
+        <ul>
+          <li>自动脉冲技术，强大扭力高频搅拌，最快 2-3 秒完成</li>
+          <li>研磨、打粉、绞肉、搅拌多功能</li>
+          <li>刀头容器均为钛金材料，S 型、十字、一字三种刀型</li>
+          <li>易清洗一冲即净，相比同类产品更安静</li>
+        </ul>
+        <div class="foot"><div class="price"><b>¥1199</b><i>零售价</i></div></div>
+      </div>
+    </div>
+
+    <div class="card" data-c="kitchen">
+      <div class="imgbox"><img src="assets/p-mwo.png" alt="微蒸烤一体机"></div>
+      <div class="body">
+        <div class="tags"><span class="tag tag-imp">SMARTcare 大厨电</span></div>
+        <h4>SMARTcare 微蒸烤一体机</h4>
+        <div class="model">五合一 · 陶瓷内胆</div>
+        <ul>
+          <li>微蒸烤炸炖五大功能，发酵/解冻/保温/烘干辅助</li>
+          <li>1000W 大功率微波 + 2000W 蒸汽，上下后三面烤管独立控温</li>
+          <li>40+ 精选美食菜单，一键自清洁延长使用寿命</li>
+          <li>陶瓷内胆耐磨耐腐蚀，一擦即净</li>
+        </ul>
+        <div class="foot"><div class="price"><b>¥3399</b><i>零售价</i></div></div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section id="channels" style="padding-top:10px">
+  <div class="sec-head">
+    <div class="kicker">CHANNELS</div>
+    <h2>销售渠道</h2>
+  </div>
+  <div class="chan-grid">
+    <div class="chan">
+      <h3><span class="ico">🛒</span>线上电商</h3>
+      <div class="hl">SMARTcare 奶瓶消毒柜同价位 ¥1500+ 全国销量第一；双十一天猫京东连续多年品类前 10</div>
+      <p>覆盖天猫、京东、苏宁、拼多多、抖音、小红书、唯品会旗舰店，及天猫海外仓直邮、多多国际等跨境渠道，50+ B2B 渠道。</p>
+      <div class="chips"><span class="chip">天猫旗舰店</span><span class="chip">京东旗舰店</span><span class="chip">小红书集合店</span><span class="chip">唯品会</span><span class="chip">苏宁</span><span class="chip">拼多多</span><span class="chip">抖音</span><span class="chip">多多国际</span></div>
+    </div>
+    <div class="chan">
+      <h3><span class="ico">🏬</span>线下门店与月子中心</h3>
+      <p>集中开发一、二线城市高端母婴单店与高端连锁店：</p>
+      <div class="chips"><span class="chip">国际蓝孩</span><span class="chip">可萝可特</span><span class="chip">Motherswork</span><span class="chip">Abbie home</span><span class="chip">莱尔斯</span></div>
+      <p style="margin-top:14px">合作月子中心：</p>
+      <div class="chips"><span class="chip">元满</span><span class="chip">馨月汇</span><span class="chip">萌诺</span><span class="chip">禧华</span><span class="chip">圣安</span><span class="chip">上德妇产</span><span class="chip">鸿玥</span><span class="chip">Babybella</span><span class="chip">新寰亚</span></div>
+      <p style="margin-top:14px">商场覆盖上海、北京、广州、江苏、浙江、大连、武汉等全国各大省会城市。</p>
+    </div>
+    <div class="chan">
+      <h3><span class="ico">🤝</span>分销渠道</h3>
+      <p>多平台分销体系，供货稳定、售后完备：</p>
+      <div class="chips"><span class="chip">淘宝</span><span class="chip">京东</span><span class="chip">苏宁</span><span class="chip">孩子王</span><span class="chip">考拉</span><span class="chip">微商</span><span class="chip">海拍客</span></div>
+      <p style="margin-top:16px">苏州设有维修中心与备品备件库，全国 400-928-2515 免费服务电话，维修配件价格全网透明公示。</p>
+    </div>
+  </div>
+</section>
+
+<section id="trust" style="padding-top:10px">
+  <div class="sec-head">
+    <div class="kicker">TRUST</div>
+    <h2>品牌实力</h2>
+  </div>
+  <div class="trust-grid">
+    <div class="trust"><div class="big">连续 10 年</div><p>韩国消费者满意度奖第一名<br>（2015-2024 Haenim 株式会社）</p></div>
+    <div class="trust"><div class="big">全球 20+ 国</div><p>韩中之外 20 多个国家和地区销售<br>各国展会广受认可</p></div>
+    <div class="trust"><div class="big">名人背书</div><p>胡可淘宝直播 · 麦迪娜&amp;姜涛抖音星推官<br>韩国综艺《超人回来了》</p></div>
+    <div class="trust"><div class="big">国际认证</div><p>美国 FDA · 韩国 KC · 二星级杀菌<br>CQC · CE · 韩美发明专利</p></div>
+  </div>
+</section>
+
+<footer id="contact">
+  <div class="foot-in">
+    <div>
+      <div class="foot-brand"><span class="mark">S</span>SMARTCARE 太阳公公</div>
+      <p>苏州全罗贸易有限公司 · Suzhou QL Trading Co., Ltd.</p>
+      <p>韩国高端母婴电器品牌 · 全球 16 国销售</p>
+      <p style="margin-top:12px">全国免费服务电话：<b style="color:#fff">400-928-2515</b></p>
+    </div>
+    <div>
+      <h5>线上购买</h5>
+      <a href="https://smartcare.tmall.com/" target="_blank" rel="noopener">天猫旗舰店 →</a>
+      <a href="https://szql-smartcare.github.io/smartcare-website/" target="_blank" rel="noopener">品牌官网 →</a>
+    </div>
+    <div>
+      <h5>栏目</h5>
+      <a href="#about">关于全罗</a>
+      <a href="#story">品牌故事</a>
+      <a href="#products">产品系列</a>
+      <a href="#channels">销售渠道</a>
+    </div>
+  </div>
+  <div class="copy">© 2026 SMARTcare 太阳公公 · 产品与价格以各渠道实际页面为准 · 部分新品上市时间以官方公告为准</div>
+</footer>
+
+<script>
+document.getElementById('filter').addEventListener('click', function(e){
+  var b = e.target.closest('.fbtn'); if(!b) return;
+  document.querySelectorAll('.fbtn').forEach(function(x){x.classList.remove('on')});
+  b.classList.add('on');
+  var f = b.dataset.f;
+  document.querySelectorAll('#grid .card').forEach(function(c){
+    c.style.display = (f==='all' || c.dataset.c===f) ? '' : 'none';
+  });
+});
+</script>
+</body>
+</html>
